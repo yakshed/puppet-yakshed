@@ -57,7 +57,7 @@ class yakshed::config (
     ensure => present,
     key    => $primary_user_ssh_key,
     type   => $primary_user_ssh_key_type,
-    user   => $pri
+    user   => $primary_user,
   }
 
   class { 'locales':
