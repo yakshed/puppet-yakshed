@@ -10,3 +10,4 @@ project_page 'UNKNOWN'
 ## Add dependencies, if any:
 dependency 'puppetlabs/apt', '>= 1.7.0'
 dependency 'puppetlabs/stdlib', '>= 4.4.0'
+dependency 'attachmentgenie/ufw', '>=1.4.7'
