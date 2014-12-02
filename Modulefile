@@ -8,5 +8,5 @@ description 'UNKNOWN'
 project_page 'UNKNOWN'
 
 ## Add dependencies, if any:
-mod 'puppetlabs-apt'
-mod 'puppetlabs-stdlib'
+dependency 'puppetlabs-apt'
+dependency 'puppetlabs-stdlib'
